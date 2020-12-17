@@ -1,0 +1,79 @@
+.Favorite {
+  display: flex;
+  width: 39%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 14px;
+  border: none;
+  background-color: #4b3443;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0px 6px #3a2232;
+  outline: none;
+  transition: ease-out 0.2s;
+}
+
+button:hover {
+  transform: translateY(1px);
+  box-shadow: 0px 4px #3a2232;
+  background-color: white;
+  color: #4b3443;
+  box-shadow: 0px 6px rgba(150, 150, 150, 0.5);
+}
+
+button:active {
+  box-shadow: none;
+  font-weight: 800;
+}
+
+.displayFavorite {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  /* background-color: pink; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 25px 0;
+}
+
+.favoriteContainer {
+  width: 35%;
+  border: 1px solid #796a74;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.6s ease-in;
+  background: linear-gradient(to right, #3a2232 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.favoriteContainer:hover {
+  /* background-color :#584853; */
+  background-position: left bottom;
+  border: 1px solid #573a4d;
+  box-shadow: 0px 6px #3a2232;
+  color: white;
+}
+
+@media screen and (max-width: 920px) {
+  .Favorite {
+    width: 55%;
+  }
+
+  Button {
+    margin : 0 10px;
+  }
+  .favoriteContainer {
+    width : 65%;
+  }
+}
