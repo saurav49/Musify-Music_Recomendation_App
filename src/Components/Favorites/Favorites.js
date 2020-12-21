@@ -26,12 +26,12 @@ const genre = {
     {
       band: "TMG",
       song: "Walkman",
-      play: "https://open.spotify.com/search/tiny%20meat%20gang%20walkman"
+      play: "https://www.youtube.com/watch?v=QqBzotBqV4g"
     },
     {
       band: "Noel Miller",
       song: "LoopHole",
-      play: "https://open.spotify.com/search/noel%20miller%20loophole"
+      play: "https://www.youtube.com/watch?v=G7kep9440qo"
     },
     {
       band: "Eminem",
